@@ -1,0 +1,10 @@
+Package: localoptions
+Type: Package
+Title: load options from local file
+Version: 1.0.0
+Date: 2012-02-02
+Author: vectrun
+Maintainer: vectrun (vectrun@gmail.com)
+Description: simple functions to load an option file and set options using Options()
+License: GNU GPL v3
+LazyLoad: yes
