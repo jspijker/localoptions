@@ -6,7 +6,7 @@ function(file) {
 	   stop(msg)
 	}
 					
-	o <- read.table(file,col.name=c("option","value"))
+	o <- read.table(file,col.name=c("option","value"),stringsAsFactors=FALSE)
 	setOptions(o)
 	invisible(o)
 }
